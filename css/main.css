@@ -1,62 +1,29 @@
-/* Nav */
-nav {
-  background-color: cadetblue;
-}
-
-nav div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1rem;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  
-  list-style: none;
-  text-align: center;
-}
-
-nav li {
-  flex: auto;
-}
-
-nav a {
-  padding: 1rem;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  color: black;
-}
-
-nav a:hover {
-  background-color: rgb(80, 133, 135);
-}
-
-/* Desktop Nav */
+/* Desktop */
 @media (width > 40rem){
-  nav ul {
-    display:flex;
+  /* Hero Text */
+  header {
+    padding-top: 20rem;
+    padding-left: 5rem;
   }
 }
 
 /* Hero */
 header {
-  height: 60vh;
+  height: 80vh;
 
   background-color: brown;
 
   display: flex;
   flex-direction: column;
-  padding-top: 20rem;
-  padding-left: 2rem;
+  justify-content: center;
+  padding: 1rem;
 
 }
 
 header h1, header p {
   max-width: 40ch;
-  margin: 0;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 /* Call To Action */
@@ -69,9 +36,4 @@ header a {
   padding: .5rem 1rem;
   color: rgb(183, 27, 9);
   
-}
-
-/* Footer */
-footer p {
-  text-align: center;
 }
