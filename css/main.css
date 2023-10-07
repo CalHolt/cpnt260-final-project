@@ -1,0 +1,23 @@
+/* Nav */
+nav ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+nav li {
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  justify-content:flex-end;
+}
+
+/* Hero */
+header {
+  height: 80vh;
+
+  background-color: brown;
+}
