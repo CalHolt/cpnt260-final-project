@@ -35,6 +35,9 @@ nav a {
   display: block;
   color: white;
 }
+div p {
+  color: white;
+}
 
 nav a:hover {
   background-color: #041432;
@@ -50,6 +53,7 @@ nav a:hover {
 /* Footer */
 footer {
   background-color: #177380;
+  color: white;
 }
 
 footer p {
@@ -75,6 +79,15 @@ footer a {
   color: #041432;
 }
 
+footer a:hover {
+  font-weight: bold;
+}
+
 .f-nav {
   text-decoration: none;
+}
+
+/* Active page */
+.active {
+  background-color:#041432;
 }

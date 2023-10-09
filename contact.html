@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DYNO Climbing</title>
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <nav>
@@ -18,27 +18,36 @@
       <p> DYNO Climbing</p>
     </div>
     <ul>
-      <li><a href="#" class="active">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="#">Gallery</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li class="active"><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-  <header>
-    <h1>Now Hiring!</h1>
-    <p>Have you been looking to continue or start a career in the climbing industry? Here at Dyno we are currently looking to take on more employee's. We are currently looking for route setters and front desk staff to join the Dyno family. Contact us to see if you are the right fit. </p>
-    <a href="#">Get In Touch</a>
-  </header>
+  <main>
+    <h1>CONTACT</h1>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+        <label for="email-address">Email Address</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      </fieldset>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
   <footer>
     <p>MENU</p>
     <div class="footer-container">
       <ul>
-        <li><a href="#" class="f-nav">Home</a></li>
+        <li><a href="index.html" class="f-nav">Home</a></li>
         <li><a href="#" class="f-nav">Gallery</a></li>
-        <li><a href="contact.html" class="f-nav">Contact</a></li>
+        <li><a href="#" class="f-nav">Contact</a></li>
       </ul>
     </div>
     <p class="copyright">&copy;2023 Cal Holt</p>
   </footer>
-  
 </body>
 </html>
