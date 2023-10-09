@@ -75,7 +75,7 @@ header a:hover {
 
 .review-cards {
   max-width: 35ch;
-  background-color: #177380;
+  background-color: #041432;
   
   border-radius: 2rem;
   padding: 1.5rem;
@@ -84,4 +84,8 @@ header a:hover {
 .review {
   text-align: center;
   margin: 0;
+}
+
+section h3 {
+  color: #CC4E39;
 }
