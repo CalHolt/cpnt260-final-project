@@ -1,3 +1,45 @@
-main {
-  flex: auto;
+
+.gallery-card {
+  
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: #041432;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.gallery-card:hover{
+  background-color: #CC4E39;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  margin: .5rem;
+}
+
+@media (width > 60rem) {
+  .gallery-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (width > 80rem) {
+  .gallery-container{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
