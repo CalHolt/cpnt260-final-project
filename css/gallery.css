@@ -2,7 +2,7 @@
   
   border-radius: 2rem;
   padding: 2rem;
-  background-color: #041432;
+  background-color: var(--blue);
   margin: 0;
 }
 
@@ -10,17 +10,11 @@ img {
   width: 100%;
   display: block;
   object-fit: cover;
-  aspect-ratio: 1/1;
   border-radius: 1rem;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .gallery-card:hover{
-  background-color: #CC4E39;
+  background-color: var(--orange);
 }
 
 .gallery-container {

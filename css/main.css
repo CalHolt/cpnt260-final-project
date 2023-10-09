@@ -43,30 +43,26 @@ header h1, header p {
   text-shadow: 2px 1px black;
 }
 
-/* Call To Action */
+/* CTA Container */
 header a {
-  text-decoration: none;
-  color: white;
-  
-  /* CTA container */
   border-radius: .25rem;
   width: fit-content;
-  background-color: #CC4E39;
+  background-color: var(--orange);
   padding: .25rem 1.5rem;
   
 }
 
 header a:hover {
-  background-color:#041432;
+  background-color:var(--blue);
 }
 
 /* Main Section */
 .review-cont {
   display:grid;
-  /* grid-template-columns:; */
-  gap: 1rem;
-  padding: 1rem;
   justify-items: center;
+  gap: 1rem;
+
+  padding: 1rem;
 }
 
 @media (width > 60rem){
@@ -77,7 +73,7 @@ header a:hover {
 
 .review-cards {
   max-width: 35ch;
-  background-color: #041432;
+  background-color: var(--blue);
   
   border-radius: 2rem;
   padding: 1rem;
@@ -89,5 +85,5 @@ header a:hover {
 }
 
 section h3 {
-  color: #CC4E39;
+  color: var(--orange);
 }

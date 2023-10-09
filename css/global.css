@@ -1,7 +1,11 @@
-
+:root {
+  --orange: #CC4E39;
+  --cyan: #177380;
+  --blue: #041432;
+}
 /* Nav */
 nav {
-  background-color:#177380;
+  background-color:var(--cyan);
 }
 
 nav div {
@@ -41,7 +45,7 @@ div p {
 }
 
 nav a:hover {
-  background-color: #041432;
+  background-color: var(--blue);
   color: white;
 }
 
@@ -53,7 +57,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #177380;
+  background-color: var(--cyan);
   color: white;
 }
 
@@ -76,7 +80,7 @@ footer ul {
 }
 
 footer a {
-  color: #041432;
+  color: var(--blue);
 }
 
 footer a:hover {
@@ -89,7 +93,7 @@ footer a:hover {
 
 /* Active page */
 .active {
-  background-color:#041432;
+  background-color:var(--blue);
 }
 
 .titles {
