@@ -1,13 +1,18 @@
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
   font-size: 22px;
   line-height: 1.5;
+  
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   flex: auto;
+}
+
+ul {
+  list-style: none;
 }
 
 a {

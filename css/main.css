@@ -36,6 +36,7 @@ header {
   }
 }
 
+/* Hero Text */
 header h1, header p {
   max-width: 40ch;
   margin-bottom: 1rem;
@@ -56,7 +57,7 @@ header a:hover {
   background-color:var(--blue);
 }
 
-/* Main Section */
+/* Review Section */
 .review-cont {
   display:grid;
   justify-items: center;
@@ -71,6 +72,7 @@ header a:hover {
   }
 }
 
+/* Cards */
 .review-cards {
   max-width: 35ch;
   background-color: var(--blue);
@@ -81,7 +83,6 @@ header a:hover {
 
 .review {
   text-align: center;
-  margin: 0;
 }
 
 section h3 {

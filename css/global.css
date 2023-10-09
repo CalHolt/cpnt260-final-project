@@ -73,7 +73,6 @@ footer p {
 }
 
 footer ul {
-  list-style: none;
   text-align: center;
   padding: 0%;
   margin: 0;
@@ -87,15 +86,12 @@ footer a:hover {
   font-weight: bold;
 }
 
-.f-nav {
-  text-decoration: none;
-}
-
 /* Active page */
 .active {
   background-color:var(--blue);
 }
 
+/* H1 on page */
 .titles {
   padding: 1rem;
   text-align: center;
