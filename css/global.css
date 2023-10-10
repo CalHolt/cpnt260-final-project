@@ -3,6 +3,7 @@
   --cyan: #177380;
   --blue: #041432;
 }
+
 /* Nav */
 nav {
   background-color:var(--cyan);
