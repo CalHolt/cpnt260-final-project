@@ -1,7 +1,7 @@
 # Final Project - Three Page Website
 ### CPNT 260 Web Page Construction Fundamentals
 ### By Cal Holt
-[GH Pages Site]()
+[GH Pages Site](https://calholt.github.io/cpnt260-final-project/)
 ## Above and beyond
 - Sticky footer in reset css line 11
 - Used the root to create custom variables for colors in global.css lines 1-5
